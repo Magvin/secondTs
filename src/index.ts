@@ -8,12 +8,9 @@ const linkedList = new LinkedList()
 linkedList.add(500);
 linkedList.add(-10);
 linkedList.add(-30);
-const sorter = new Sorter(numbersCollection);
-const charactersSorter = new Sorter(charactersCollection);
-const linkedListSorter = new Sorter(linkedList);
-sorter.sort();
-charactersSorter.sort();
-linkedListSorter.sort();
+numbersCollection.sort();
+charactersCollection.sort();
+linkedList.sort();
 console.log(numbersCollection.data)
 console.log(charactersCollection.data)
 console.log(linkedList.print())
